@@ -1,6 +1,6 @@
 package com.javacourse.se.lesson5;
 
-import com.javacourse.se.lessons7.Bus;
+import com.javacourse.se.lesons7.Bus;
 
 public class Main {
 
