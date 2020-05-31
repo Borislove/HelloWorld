@@ -8,4 +8,22 @@ public class Bus {
     public void showColor(){
         System.out.println(color);
     }
+
+    public static void main(String[] args) {
+
+        Bus bus ;
+        bus = new Bus();
+
+        Bus ourBus = new Bus();
+        Bus firstBus = new Bus();
+        Bus secondBus =new Bus();
+
+        ourBus.color = "Green";
+        firstBus.color = "Red";
+        secondBus.color = "Gray";
+
+        ourBus.showColor();
+        firstBus.showColor();
+        secondBus.showColor();
+    }
 }

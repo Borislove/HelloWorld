@@ -1,6 +1,7 @@
 package com.javacourse.se.lesson5;
 
 import com.javacourse.se.lesson7.Bus;
+import com.javacourse.se.lesson9.Operation;
 
 public class Main {
 
@@ -19,22 +20,4 @@ public class Main {
     }*/
 
     ////////////////////////////////////////////////////
-
-    public static void main(String[] args) {
-
-        Bus bus ;
-        bus = new Bus();
-
-        Bus ourBus = new Bus();
-        Bus firstBus = new Bus();
-        Bus secondBus =new Bus();
-
-        ourBus.color = "Green";
-        firstBus.color = "Red";
-        secondBus.color = "Gray";
-
-        ourBus.showColor();
-        firstBus.showColor();
-        secondBus.showColor();
-    }
 }
