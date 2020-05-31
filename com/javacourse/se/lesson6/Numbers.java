@@ -20,7 +20,7 @@ public class Numbers {
 
     static boolean h = true;  // 8 bit (in arrays)  , 32 bit (not in arrays)
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         System.out.println(a);
         System.out.println(b);
@@ -35,5 +35,5 @@ public class Numbers {
         System.out.println(h);
 
         System.out.println(fi);  //будет выводить в степени
-    }
+    }*/
 }
