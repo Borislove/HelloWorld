@@ -10,6 +10,9 @@ public class Birds {
         this.wings = wings;
     }
 
+    public Birds() {
+    }
+
     public void walk() {
         System.out.println("Ho-ho-ho");
     }

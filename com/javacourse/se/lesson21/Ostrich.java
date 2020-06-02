@@ -6,6 +6,9 @@ public class Ostrich extends Birds {
         super(name, wings);
     }
 
+    public Ostrich() {
+    }
+
     public void hideHead(){  //прятать голову
         System.out.println("I Ostrich and I scared");
 
